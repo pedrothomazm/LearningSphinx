@@ -24,6 +24,10 @@ The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
 or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
 will raise an exception.
 
+To get the sum of two numbers, you can use the ``lumache.sum()`` funcion:
+
+.. autofunction:: lumache.sum
+
 .. autoexception:: lumache.InvalidKindError
 
 >>> import lumache
