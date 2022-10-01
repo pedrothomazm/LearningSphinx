@@ -10,6 +10,18 @@ def get_random_ingredients(kind=None):
     """
     return ["shells", "gorgonzola", "parsley"]
 
+def sum(a, b):
+    """Return the sum of a and b
+
+    :param a: first term of sum
+    :type a: int or float
+    :param b: second term of sum
+    :type b: int or float
+    :return: the sum of a and b
+    :rtype: int or float
+    """
+    return a + b
+
 class InvalidKindError(Exception):
     """Raised if the kind is invalid."""
     pass
